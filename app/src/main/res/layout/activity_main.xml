@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/black">
+
+    <cn.knightxie.recordbutton.RecordButton
+        android:id="@+id/recordButton2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:end_out_alpha="0x80"
+        app:in_circle_drawable="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:max_in_radius="38.5dp"
+        app:max_out_radius="48dp"
+        app:max_rect_size="53dp"
+        app:min_corner="1dp"
+        app:min_in_radius="26.5dp"
+        app:min_out_radius="36dp"
+        app:min_rect_size="20dp"
+        app:out_alpha_anim="true"
+        app:out_circle_drawable="@drawable/out_circle"
+        app:rect_drawable="@drawable/center_rect"
+        app:start_out_alpha="0x4D"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RecordButton">
+        <attr name="out_circle_drawable" format="reference"/>
+        <attr name="in_circle_drawable" format="reference"/>
+        <attr name="rect_drawable" format="reference"/>
+        <attr name="min_out_radius" format="dimension"/>
+        <attr name="max_out_radius" format="dimension"/>
+        <attr name="min_rect_size" format="dimension"/>
+        <attr name="max_rect_size" format="dimension"/>
+        <attr name="min_corner" format="dimension"/>
+        <attr name="anim_duration" format="integer"/>
+        <attr name="start_out_alpha" format="integer"/>
+        <attr name="end_out_alpha" format="integer"/>
+        <attr name="min_in_radius" format="dimension"/>
+        <attr name="max_in_radius" format="dimension"/>
+        <attr name="out_alpha_anim" format="boolean"/>
+        <attr name="start_rect_alpha" format="integer"/>
+        <attr name="end_rect_alpha" format="integer"/>
+    </declare-styleable>
+</resources>
