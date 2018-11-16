@@ -6,7 +6,7 @@ publish {
     artifactId = "recordbutton" // module name
     publishVersion = "1.0.0" // library version
     desc = "Record button like Sina Webo or TikTok." // description
-    website = "https://github.com/Night-X/MyUtils/tree/master/toolLibrary" // web site
+    website = "https://github.com/Night-X/RecordButton/tree/master/recordbutton" // web site
     bintrayUser = "night-x" // bintray.com UserName
     bintrayKey = "6be99d2bb3754709403f061fcfa35c600ab1030b" // API key
     repoName = "night-tools" // maven repository name
