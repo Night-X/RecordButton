@@ -1,4 +1,3 @@
-## dev git test
 # RecordButton
 仿抖音微博录制按钮。
 
